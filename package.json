@@ -1,5 +1,5 @@
 {
-  "homepage" : "http://harita96.github.io/iex-data-react",
+  "homepage": "http://harita96.github.io/iex-data-react",
   "name": "iex-data-react",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
+    "netlify-cli": "^2.46.0",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.13.1",
@@ -18,6 +19,8 @@
     "typeface-merriweather": "0.0.72"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
