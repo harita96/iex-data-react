@@ -363,10 +363,10 @@ class App extends Component {
             changePercent = {quote.changePercent}
             url = {logoInfo.url}
             labels = {labels}
-            label = {datasets.label}
-            data = {datasets.data}
+            //label = {datasets.label}
+            //data = {datasets.data}
            news = {news}
-            //data = {this.state}
+            data = {this.state}
             mostActive = {mostActive}
           />
           
