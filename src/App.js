@@ -337,7 +337,7 @@ class App extends Component {
       table,
       news,
       labels,
-      datasets,
+      //datasets,
       error,
       mostActive
       } = this.state;
