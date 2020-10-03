@@ -366,7 +366,7 @@ class App extends Component {
             label = {datasets.label}
             data = {datasets.data}
            news = {news}
-            data = {this.state}
+            //data = {this.state}
             mostActive = {mostActive}
           />
           
