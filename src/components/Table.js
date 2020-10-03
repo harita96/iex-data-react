@@ -96,7 +96,7 @@ else{
     <div style={A}>
       <h4><a href={newsData.url}>{newsData.headline}</a></h4>
       <p>{newsData.summary}</p>
-      <img src={newsData.image} style={IMAGE}></img>
+      <img src={newsData.image} alt = "" style={IMAGE}></img>
     </div>
   );
   
