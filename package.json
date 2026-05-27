@@ -9,11 +9,11 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
-    "netlify-cli": "^2.46.0",
+    "netlify-cli": "^26.0.2",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "styled": "^1.0.0",
     "styled-components": "^5.0.1",
     "typeface-merriweather": "0.0.72"
